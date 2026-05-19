@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars — never commit the real file
+project_name    = "myapp"
+environment     = "dev"
+aws_region      = "us-east-1"
+container_image = "123456789.dkr.ecr.us-east-1.amazonaws.com/myapp:latest"
+db_password     = "change-me-in-secrets-manager"
+alert_email     = "dev-alerts@example.com"

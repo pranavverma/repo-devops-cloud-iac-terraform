@@ -1,0 +1,9 @@
+project_name    = "myapp"
+environment     = "prod"
+aws_region      = "us-east-1"
+container_image = "123456789.dkr.ecr.us-east-1.amazonaws.com/myapp:v1.0.0"
+desired_count   = 3
+db_name         = "appdb"
+db_username     = "appuser"
+db_password     = "use-aws-secrets-manager-not-this-file"
+alert_email     = "oncall@example.com"

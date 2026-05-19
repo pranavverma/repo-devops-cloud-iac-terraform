@@ -1,0 +1,6 @@
+project_name    = "myapp"
+environment     = "staging"
+aws_region      = "us-east-1"
+container_image = "123456789.dkr.ecr.us-east-1.amazonaws.com/myapp:staging"
+db_password     = "change-me"
+alert_email     = "staging-alerts@example.com"
